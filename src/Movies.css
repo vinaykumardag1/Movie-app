@@ -1,0 +1,23 @@
+.card-body{
+    position: relative;
+
+}
+.image{
+    display: block;
+}
+.image:hover,.overview{
+   z-index: 0;
+}
+.overview{
+    color: white;
+    font-size: 20px;
+   
+   
+   
+
+}
+.overview:hover{
+    position: absolute;
+    top: 50%;
+
+}
