@@ -65,7 +65,7 @@ const MovieApp = () => {
         />
         <button type="submit" onClick={handleSearch} className="rounded-xl text-xl text-white bg-red-600 py-1 px-10" >Search</button>
       </form>
-      <div className="p-2 flex flex-wrap sm:flex-wrap flex-col " >
+      <div className="p-2 flex flex-wrap  " >
       
         {movies.map((movie) => (
           <div key={movie.id} className="w-1/4 p-10 shadow-lg shadow-indigo-500/50   card " >
